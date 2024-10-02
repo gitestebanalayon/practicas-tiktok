@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 300ms;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: start;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.children{
+    background: rgb(0, 81, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.children.par{
+    background: rgb(255, 153, 0);
+}
+
+.transform{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
